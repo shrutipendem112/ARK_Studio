@@ -18,18 +18,39 @@ nav li{
     list-style: none;
     padding: 11px;
 }
-.separator{
-    display: inline;
-}
-.separator p{
-    text-align: center;    
-}
-/* .separator-item{
+.bottom-nav{
     display: flex;
-} */
-/* .separator-item div img{
+    background-color: white;
+    opacity: 0.7;
+}
+.border1 p{
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: -498;
+}
+.separator{
     text-align: center;
-} */
+    padding-bottom: 40px;
+    margin: 50px 0px 90px 0px;
+    /* border: 2px solid black; */
+}
+.separator-item ,h4h5{
+    text-align: center;
+}
+.separator-item {
+    display: flex;
+    justify-content: center;
+    
+}
 .item1{
-    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 257px;
+    margin: 5px 52px 52px 52px;
+    text-align: center; 
+}
+.imgs img{
+    width: 297px;
+    height: 500px; 
 }
